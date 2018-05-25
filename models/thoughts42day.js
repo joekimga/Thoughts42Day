@@ -13,11 +13,10 @@ var Thought = sequelize.define("thoughts", {
     // the name of the character (a string)
     thoughts_name: Sequelize.STRING,
     // the character's role (a string)
-    role: Sequelize.STRING,
+    thought_name: Sequelize.STRING,
     // the character's age (a string)
-    age: Sequelize.INTEGER,
+    thought_archive: Sequelize.STRING,
     // and the character's force points (an int)
-    forcePoints: Sequelize.INTEGER
 }, {
     timestamps: false
 });
