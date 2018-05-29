@@ -7,7 +7,9 @@ DROP TABLE IF EXISTS thoughts;
 # Create the thoughts table
 CREATE TABLE thoughts (
 id int NOT NULL AUTO_INCREMENT,
-thoughts_name varchar(255) NOT NULL,
-bloggeded BOOL DEFAULT false,
+thoughts_name VARCHAR(255) NOT NULL,
+thought_date INTEGER(6) NOT NULL,
+thought_archive VARCHAR(255) NOT NULL,
+thought_updated BOOLEAN DEFAULT false,
 PRIMARY KEY (id)
 );
