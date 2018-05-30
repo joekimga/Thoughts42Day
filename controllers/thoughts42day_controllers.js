@@ -1,9 +1,9 @@
 
 let express = require('express');
-let routes = express.Routes();
+let routes = express.Router();
 
 
-routes.get("/api/thoughttank", function (req, res) {
+routes.get("/", function (req, res) {
     res.send(`Hello World`);
 
     });
