@@ -13,3 +13,7 @@ body {
 .flow-image {
     width: 20px 20px 20px 20px;
 }
+
+h2 {
+    text-shadow: 2px 2px #ffffff;
+}
